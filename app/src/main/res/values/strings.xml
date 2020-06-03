@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+
+    <string name="covid_precaution_1">All you need\nis stay at home</string>
+    <string name="covid_precaution_2">Get to know\nabout COVID-19</string>
+    <string name="prevention_title_1">Wear face mask</string>
+    <string name="prevention_title_2">Wash your hands</string>
+    <string name="prevention_description_2">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</string>
+    <string name="prevention_description_1">If you need to leave your house, wear a mask to avoid infecting others. Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses.</string>
+
+    <string name="symptom_title_1">Headache</string>
+    <string name="symptom_title_2">Cough</string>
+    <string name="symptom_title_3">Fever</string>
+
+    <string name="label_case_update">Case Update</string>
+    <string name="label_symptoms">Symptoms</string>
+    <string name="label_prevention">Prevention</string>
+    <string name="label_infected">Infected</string>
+    <string name="label_deaths">Deaths</string>
+    <string name="label_recovered">Recovered</string>
+
+    <string name="image_cd_covid_icon_1">covid icon 1</string>
+    <string name="image_cd_covid_icon_2">covid icon 2</string>
+    <string name="image_cd_covid_virus">covid_virus</string>
+    <string name="image_cd_prevention_icon">Prevention Icon</string>
+    <string name="image_cd_donate_to_help">Donate To Help</string>
+    <string name="image_cd_information_screen">Information Screen</string>
+    <string name="image_cd_count_indicator">Count Indicator</string>
+
+    <string name="hint_username">USERNAME</string>
+    <string name="hint_password">PASSWORD</string>
+
+    <string name="action_donate_to_help">DONATE TO HELP</string>
+    <string name="action_proceed_to_donate">PROCEED TO DONATE</string>
+
+    <string name="label_last_updated">Last updated : %s</string>
+</resources>
