@@ -25,8 +25,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/bg_top_view_gradient"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp">
+                    android:paddingStart="@dimen/padding_16"
+                    android:paddingEnd="@dimen/padding_16">
 
                     <ImageView
                         android:layout_width="wrap_content"

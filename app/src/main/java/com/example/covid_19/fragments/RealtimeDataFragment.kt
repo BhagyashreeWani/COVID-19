@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -47,9 +49,12 @@ class RealtimeDataFragment : Fragment() {
         binding.root.requestLayout()
         binding.root.invalidate()
 
+        val blinkAnimation: Animation = AnimationUtils.loadAnimation(context, R.anim.blink)
+        binding.ivInformation.startAnimation(blinkAnimation)
         // Set the onClickListener for the submitButton
         binding.ivInformation.setOnClickListener @Suppress("UNUSED_ANONYMOUS_PARAMETER")
         { view: View ->
+            binding.ivInformation.clearAnimation()
             view.findNavController()
                 .navigate(R.id.action_realtimeDataFragment_to_informationDataFragment)
 
@@ -58,6 +63,7 @@ class RealtimeDataFragment : Fragment() {
         binding.efabDonateToHelp.setOnClickListener { view: View ->
             view.findNavController().navigate(R.id.action_realtimeDataFragment_to_loginFragment)
         }
+
         getData()
         return binding.root
     }
